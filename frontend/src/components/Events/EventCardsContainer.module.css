@@ -1,0 +1,8 @@
+.mainEventContainer {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  row-gap: 5px;
+  background-color: aliceblue;
+}

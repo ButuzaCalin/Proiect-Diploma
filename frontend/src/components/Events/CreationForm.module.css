@@ -1,0 +1,93 @@
+.form {
+  width: 95%;
+  max-width: 25rem;
+  margin: 2rem auto;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #353336;
+  display: block;
+}
+
+.control input {
+  display: block;
+  font: inherit;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #38015c;
+  padding: 0.25rem;
+  background-color: #f7f0fa;
+}
+
+.action {
+  margin-top: 1.5rem;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #38015c;
+  color: white;
+  border: 1px solid #38015c;
+}
+
+.action button:hover {
+  background-color: #540d83;
+  border-color: #540d83;
+}
+
+.categorybox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+}
+
+.iconbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100px;
+  background-color: rgb(206, 239, 244);
+  border-radius: 10px;
+  margin: 5px;
+  border: 2px solid #38015c;
+}
+
+.iconbox:hover {
+  background-color: rgb(165, 243, 243);
+}
+
+.selected {
+  border: 2px solid rgb(234, 52, 224);
+  background-color: aquamarine;
+}
+
+.formImg {
+  margin: 5px;
+  margin-top: 11px;
+  height: 50px;
+}
+
+h5 {
+  margin: 10px;
+}
+
+.resizableInput {
+  height: 150px;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #38015c;
+  background-color: #f7f0fa;
+}

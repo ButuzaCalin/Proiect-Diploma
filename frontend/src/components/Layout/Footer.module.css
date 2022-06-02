@@ -1,0 +1,9 @@
+.ftr {
+  height: 2cm;
+  width: auto;
+  background-color: #0c5571;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
